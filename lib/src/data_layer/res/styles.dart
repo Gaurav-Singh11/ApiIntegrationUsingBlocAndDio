@@ -182,7 +182,7 @@ class AppStyles {
   static final SizedBox sbWidth25 = SizedBox(width: getWidth(d_25));
   static final SizedBox sbWidth50 = SizedBox(width: getWidth(d_50));
 
-/* BorderRadius */
+  /// BorderRadius
   BorderRadius br_20 = BorderRadius.circular(20.0);
   BorderRadius br_10 = BorderRadius.circular(10.0);
   BorderRadius brAll_4 = const BorderRadius.all(Radius.circular(4.0));
