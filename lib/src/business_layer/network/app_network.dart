@@ -77,6 +77,8 @@ class AppNetwork {
       // network communication.
       return BaseApiResponseModel(exceptionType: ExceptionType.socketException);
     }
+
+    LogHelper.logData(_dioClient!.options.baseUrl + url);
     try {
       final cancelToken = CancelToken();
       LogHelper.logData(_dioClient!.options.baseUrl + url);

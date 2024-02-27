@@ -206,6 +206,7 @@ class AppStyles {
 
   static ThemeData getAppTheme() {
     return ThemeData(
+      useMaterial3: false,
       primaryColor: AppColors.mainColor,
       pageTransitionsTheme: const PageTransitionsTheme(builders: {
         TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
